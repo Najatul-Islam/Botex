@@ -1,0 +1,51 @@
+/* All common CSS start */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Lato", sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+}
+/* All common CSS end */
+ /* Headerpart start */
+ .navbar{
+    background: #121212;
+ }
+ .nav-item a{
+    color: #959595!important;
+    font-size: 20px;
+    font-weight: medium;
+    letter-spacing: 3%;
+    padding-left: 15px !important;
+    transition: .5s;
+ }
+ .nav-item a:hover{
+ color: #FD6F00 !important;
+ }
+.hirebtn a{
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3%;
+    background: linear-gradient(to bottom right, #FD6F00, #E46400);
+    padding: 10px 35px;
+    border-radius: 8px;
+     transition: .5s !important;
+}
+.hirebtn a:hover{
+    background: #fff!important;
+    color: #E46400 !important;
+}
+  /* Headerpart end */
