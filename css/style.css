@@ -5,8 +5,13 @@
     box-sizing: border-box;
     outline: 0;
     font-family: "Lato", sans-serif;
-    background: #1e1e1e; ;
 }
+body{
+    background: #1e1e1e;
+}
+/* .commontext{
+    color: #fff;
+} */
 ul,ol{
     list-style-type: none;
 }
@@ -57,7 +62,6 @@ h1,h2,h3,h4,h5,h6,p{
    /* banner part start  */
 #bannerpart{
     width: 100%;
-    padding-bottom: 100px;
     padding-top:173px;
 }
 .bannertext{
@@ -122,14 +126,14 @@ h1,h2,h3,h4,h5,h6,p{
     color: #959595 !important;
 }
 .bannercounter{
-     /* margin-top: 80px; */
-    background: rgba(255, 255, 255, 0.4)!important;
+      margin-top: 80px; 
+      background: rgba(255, 255, 255, 4%)!important;
     border-radius: 8px;
+    padding:25px;
 }
 .banneritem{
-    background: rgba(255, 255, 255, 0.4)!important;
-     margin-top: 100px;
-    padding:10px;
+    /* background: rgba(255, 255, 255, 4%)!important; */
+ border-right: 2px solid #575757;
     /* text-align: center; */
 }
 .banneritem h3{
@@ -146,16 +150,33 @@ h1,h2,h3,h4,h5,h6,p{
     letter-spacing: 3%;
 }
 .bannerimg{
-    position: relative;
+      margin-left: 30px;
+     justify-content: right;
 }
-.bannerimg img{
-    position: absolute;
-    top: 0%;
-    right:0%;
-    /* margin-left: 80px; */
+.last{
+    border: none!important;
 }
-.middle{
-    border-left: 2px solid #575757;
-border-right: 2px solid #575757;
-}
+
  /* banner part end */
+           /* servicepart start */
+#servicepart{
+ padding-bottom :136px!important;
+    
+}
+.commontext h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    padding-bottom: 30px;
+     padding-top: 266px; 
+}
+.commontext p{
+ color: #707070;
+    font-size: 20px;
+    font-weight: medium;
+    letter-spacing: 3%;
+    padding-bottom: 80px;
+}
+
+            /* servicepart end */
